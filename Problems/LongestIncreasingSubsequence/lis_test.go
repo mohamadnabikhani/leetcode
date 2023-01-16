@@ -1,10 +1,10 @@
-package cvp
+package lis
 
 import (
 	"testing"
 )
 
-func TestTableDrivenCountVowelPermutation(t *testing.T) {
+func TestTableTwoSum(t *testing.T) {
 	assertCorrectMessage := func(t testing.TB, name string, expected, result int) {
 		t.Helper()
 		if expected != result {
@@ -14,20 +14,17 @@ func TestTableDrivenCountVowelPermutation(t *testing.T) {
 
 	wordTestTable := []struct {
 		name string
-		n    int
+		nums []int
 		want int
 	}{
-		{name: "test 1", n: 1, want: 5},
-		{name: "test 2", n: 2, want: 10},
-		{name: "test 3", n: 3, want: 19},
-		{name: "test 4", n: 4, want: 35},
-		{name: "test 5", n: 5, want: 68},
-		{name: "test 144", n: 144, want: 18208803},
+		{name: "test {10,9,2,5,3,7,101,18}", nums: []int{10, 9, 2, 5, 3, 7, 101, 18}, want: 4},
+		{name: "test {0,1,0,3,2,3}", nums: []int{0, 1, 0, 3, 2, 3}, want: 4},
+		{name: "test {7,7,7,7,7,7,7}", nums: []int{7, 7, 7, 7, 7, 7, 7}, want: 1},
 	}
 
 	for _, tt := range wordTestTable {
 		t.Run(tt.name, func(t *testing.T) {
-			result := CountVowelPermutation(tt.n)
+			result := LengthOfLIS(tt.nums)
 			expected := tt.want
 			assertCorrectMessage(t, tt.name, expected, result)
 		})
