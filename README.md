@@ -9,5 +9,6 @@
 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [findMedianSortedArrays.go](Problems/findMedianSortedArrays/findMedianSortedArrays.go) | -
 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/m) | [longestPalindrome.go](Problems/longestPalindrome/longestPalindrome.go) | -
 6 | [ZigZag conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [zc.go](Problems/ZigzagConversion/zc.go) | -
+7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | [ReverseInteger.go](Problems/ReverseInteger/ReverseInteger.goo) | -
 
 
