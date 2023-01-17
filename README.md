@@ -10,5 +10,6 @@
 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/m) | [longestPalindrome.go](Problems/longestPalindrome/longestPalindrome.go) | -
 6 | [ZigZag conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [zc.go](Problems/ZigzagConversion/zc.go) | -
 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | [ReverseInteger.go](Problems/ReverseInteger/ReverseInteger.goo) | -
+7 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | [atoi.go](Problems/atoi/atoi.go) | -
 
 
